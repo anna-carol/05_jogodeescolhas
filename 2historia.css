@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: url("./image/fundo.png") no-repeat;
+    background-color: #fffff6;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5%;
+    margin-top: 10%;
+}
+h2{
+    margin: 10px;
+}
+div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+div div{
+    display: flex;
+    background-color: #f9cf86;
+    width: 20%;
+    height: 70px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+#quest{
+    border:2px solid #b27409;
+    padding: 2%;
+    width: 70%;
+}
+button{
+    margin:2%;
+    text-decoration: none;
+    font-size: 24px;
+    background-color: #025492;
+    border-radius: 5%;
+    padding: 15px 32px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+#box3{
+    border-radius: 50%;
+    border:2px solid burlywood;
+    background-color: #fffff6;
+}
+#box2{
+    width: 20%;
+    background-color: #c1c8d1;
+    border:5px solid burlywood;
+    border-radius: 10%;
+}
+#box1{
+    background-color: cadetblue;
+    color:red;
+}
+.git1{
+    width: 40%;
+    height: 30px;
+    margin: 5px;
+    border: 2px solid darkgoldenrod;    
+}
+#caixa6{
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}   

@@ -1,0 +1,20 @@
+body{
+    background-color: #b21f09;
+    font-family: 'Courier New', Courier, monospace;
+    color:#fffff6 ; 
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    width: 40%;
+    font-size: 24px;
+    background-color: #fffff6;
+    border-radius: 5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+a {
+    color:#000000;
+    text-decoration: none;
+}   
